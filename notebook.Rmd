@@ -39,7 +39,7 @@ The data is stored as two CSV files within the `data` folder.
  * Add a handwashing_started boolean column to monthly using June 1st, 1847 as the threshold; TRUE should mean that handwashing has started at the clinic. Plot the new df with different colored lines depending on handwashing_started.
  * Calculate the mean proportion of deaths before and after handwashing from the monthly data, and store the result as a 2x2 df named monthly_summary with the first column containing the handwashing_started groups and the second column having the mean proportion of deaths.
 
-### Required libraries + Reading the data
+## Required libraries + Reading the data
 ```{r echo=TRUE, message=FALSE}
 library(tidyverse)
 library(lubridate)
